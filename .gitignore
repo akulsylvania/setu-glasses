@@ -1,0 +1,19 @@
+.env
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+prompts/
+*.wav
+*.stt.json
+live.jsonl
+# call transcripts contain phone numbers
+calls/
+# never commit proprietary artefacts
+*.pt
+*.npz
+*.a
+# private notes for the team (interview prep)
+SUBMISSION.md

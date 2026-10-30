@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "setu-glasses"
+version = "0.3.0"
+description = "Setu Glasses: silent speech in, voice out. Bolna voice-agent relay, multilingual TTS/STT and data pipeline."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = []   # standard library only
+
+[project.scripts]
+setu = "setu.app:main"
+
+[tool.setuptools.packages.find]
+include = ["setu*"]
