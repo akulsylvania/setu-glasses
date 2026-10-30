@@ -127,8 +127,6 @@ recordings are proprietary. See [docs/PRIVACY_IP.md](docs/PRIVACY_IP.md).
 We can demo them live and walk through them under NDA.
 
 ## Team: Setu Labs
-
-* [@akulsylvania](https://github.com/akulsylvania)
 * Divyaratna Joshi
 * Arush Singhal
 
